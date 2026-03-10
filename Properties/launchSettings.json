@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TheRemembrance": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+namespace TheRemembrance
+{
+    internal static class Program
+    {
+        /// <summary>
+        ///  The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
+            // Application.Run(new login());
+            Application.Run(new login());
+        }
+
+        public static void sacarMensaje(string msj)
+        {
+            MessageBox.Show(msj);
+        }
+    }
+}
